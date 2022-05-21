@@ -1,0 +1,22 @@
+.header {
+  max-width: 880px;
+  padding-top: 45px;
+  margin: auto;
+  padding-right: 200px;
+  padding-left: 200px;
+}
+
+@media (max-width: 768px) {
+  .header {
+    padding-right: 100px;
+    padding-left: 100px;
+  }
+}
+
+@media (max-width: 430px) {
+  .header {
+    padding-top: 28px;
+    padding-right: 27px;
+    padding-left: 27px;
+  }
+}
