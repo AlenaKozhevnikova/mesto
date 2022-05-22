@@ -4,4 +4,12 @@
   justify-content: center;
   flex-direction: column;
   color: #FFFFFF;
+  max-width: 880px;
+  margin: auto;
+}
+
+@media (max-width: 1024px) {
+  .content {
+
+  }
 }
