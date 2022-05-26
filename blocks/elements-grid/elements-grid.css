@@ -21,5 +21,7 @@
   .elements-grid {
     grid-template-columns: repeat(1, 282px);
     grid-template-rows: repeat(2, 361px);
+    padding-top: 36px;
+    padding-bottom: 48px;
   }
 }
