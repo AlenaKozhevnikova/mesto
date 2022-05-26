@@ -7,6 +7,8 @@
   padding-top: 25.75px;
   padding-left: 26.25px;
   padding-right: 251px;
+  align-items: flex-start;
+
 }
 
 @media (max-width: 900px) {
@@ -18,8 +20,10 @@
 @media (max-width: 768px) {
   .profile__info {
     padding-top: 22.25px;
-    padding-right: 0;
+    margin: auto;
+    padding-left: 0;
     padding-bottom: 36px;
     justify-content: center;
+    max-height: 54px;
   }
 }

@@ -1,6 +1,18 @@
 .profile__edit-button {
   width: 24px;
   height: 24px;
-  align-self: center;
+  position: relative;
   margin: 0;
+  background-color: #000000;
+  border: 1px solid #FFFFFF;
+  cursor: pointer;
+  align-self: center;
+}
+
+@media (max-width: 600px) {
+  .profile__edit-button {
+    width: 18px;
+    height: 18px;
+    padding: 0;
+  }
 }
