@@ -9,7 +9,7 @@
 </head>
 
 <body class="body">
-  <root class="root">
+  <div class="root">
     <header class="header">
       <img class="logo" src="./images/logo.svg" alt="Логотип Mesto">
     </header>
@@ -19,12 +19,12 @@
         <div class="profile__info">
           <h1 class="profile__name">Жак-Ив Кусто</h1>
           <button class="profile__edit-button">
-            <img class="profile__edit-button-icon" src="./images/edit_button_icon.svg">
+            <img class="profile__edit-button-icon" src="./images/edit_button_icon.svg" alt="Кнопка Редактировать">
           </button>
           <h2 class="profile__description">Исследователь океана</h2>
         </div>
         <button class="profile__add-button">
-          <img class="profile__add-button-icon" src="./images/Close_button_icon.svg">
+          <img class="profile__add-button-icon" src="./images/Add_button.svg" alt="Кнопка добавить">
         </button>
       </section>
       <section class="elements-grid">
@@ -32,42 +32,42 @@
             <img class="element__photo" src="./images/kirill-pershin-1088404-unsplash.jpg" alt="Фото достопримечательности">
             <div class="element__description">
               <p class="element__text">Карачевск</p>
-            <img class="element__heart" src="./images/heart_transparent.svg">
+            <img class="element__heart" src="./images/heart_transparent.svg" alt="Кнопка лайк">
             </div>
         </div>
         <div class="element">
           <img class="element__photo" src="./images/kirill-pershin-1088404-unsplash.jpg" alt="Фото достопримечательности">
           <div class="element__description">
             <p class="element__text">Гора Эльбрус</p>
-          <img class="element__heart" src="./images/heart_transparent.svg">
+          <img class="element__heart" src="./images/heart_transparent.svg" alt="Кнопка лайк">
           </div>
         </div>
         <div class="element">
           <img class="element__photo" src="./images/kirill-pershin-1088404-unsplash.jpg" alt="Фото достопримечательности">
           <div class="element__description">
             <p class="element__text">Домбай</p>
-          <img class="element__heart" src="./images/heart_transparent.svg">
+          <img class="element__heart" src="./images/heart_transparent.svg" alt="Кнопка лайк">
           </div>
         </div>
         <div class="element">
           <img class="element__photo" src="./images/kirill-pershin-1088404-unsplash.jpg" alt="Фото достопримечательности">
           <div class="element__description">
             <p class="element__text">Гора Эльбрус</p>
-          <img class="element__heart" src="./images/heart_transparent.svg">
+          <img class="element__heart" src="./images/heart_transparent.svg" alt="Кнопка лайк">
           </div>
         </div>
         <div class="element">
           <img class="element__photo" src="./images/kirill-pershin-1088404-unsplash.jpg" alt="Фото достопримечательности">
           <div class="element__description">
             <p class="element__text">Домбай</p>
-          <img class="element__heart" src="./images/heart_transparent.svg">
+          <img class="element__heart" src="./images/heart_transparent.svg" alt="Кнопка лайк">
           </div>
         </div>
         <div class="element">
           <img class="element__photo" src="./images/kirill-pershin-1088404-unsplash.jpg" alt="Фото достопримечательности">
           <div class="element__description">
             <p class="element__text">Карачево-Черкесия</p>
-          <img class="element__heart element__heart-active" src="./images/heart_transparent.svg">
+          <img class="element__heart element__heart-active" src="./images/heart_transparent.svg" alt="Кнопка лайк">
           </div>
         </div>
       </section>
@@ -79,13 +79,14 @@
       <div class="popup__container">
           <button class="popup__close"></button>
           <h3 class="popup__title">Редактировать профиль</h3>
-          <form action="" class="popup__form">
+          <form action="submit" class="popup__form">
             <input type="text" class="popup__input popup__input_name">
             <input type="text" class="popup__input popup__input_description">
             <button type="submit" class="popup__save-button">Сохранить</button>
           </form>
       </div>
     </div>
+  </div>
     <script src="./scripts/index.js"></script>
 
 </body>

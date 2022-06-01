@@ -38,3 +38,5 @@ saveButton.addEventListener('click', function() {
   profileName.textContent = nameFieldElement.value;
   profileDescription.textContent = descriptionFieldElement.value;
 })
+
+formElement.addEventListener('submit', formSubmitHandler);
