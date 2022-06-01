@@ -4,12 +4,21 @@
   line-height: 48px;
   margin: 0;
   padding-right: 18px;
+  word-wrap: break-word;
+  max-width: 294px;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 900px) {
   .profile__name {
+    max-width: 200px;
     font-size: 27px;
     line-height: 33px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 600px) {
+  .profile__name {
     text-align: center;
     padding-right: 10px;
     padding-left: 24px;

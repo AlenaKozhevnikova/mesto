@@ -1,0 +1,17 @@
+.popup {
+  position: absolute;
+  width: 100%;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  background: rgba(0, 0, 0, 0.5);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.popup_open {
+  display: flex;
+}

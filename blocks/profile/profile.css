@@ -2,6 +2,8 @@
   display: flex;
   margin: auto;
   padding-top: 36.25px;
+  align-items: flex-start;
+  width: 100%;
 }
 
 @media (max-width: 768px) {

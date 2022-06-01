@@ -8,8 +8,8 @@
   margin: auto;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 900px) {
   .content {
-
+    max-width: 581px;
   }
 }

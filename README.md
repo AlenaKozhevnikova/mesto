@@ -1,17 +1,21 @@
-# Проект: Место
+## Mesto
 
-### Обзор
+Mesto is a web project which was made by Kozhevnikova Alena during studying WEB-programming in YandexPraktikum school.
+In this webpage, you can manage your social network page about traveling in Russia, upload various photos with amazing landscapes.
 
-* Figma
-* Картинки
+During coding this project has been used techniques, such as:
 
-**Figma**
+- Flex-box.
+- Positioning.
+- Semantic APIs for programming languages.
+- CSS Grid Layout Module.
+- Modular solution BEM.
+- ul The Unordered List element.
+- CSS media queries.
+- Java Script tricks.
 
-* [Ссылка на макет в Figma](https://www.figma.com/file/2cn9N9jSkmxD84oJik7xL7/JavaScript.-Sprint-4?node-id=0%3A1)
+## Project development plans.
 
-**Картинки**
+- add more Jc features.
 
-Доставать картинки предстоит из Фигмы. Это расхожая практика, поэтому полезно потренироваться.
-Не забудьте [оптимизировать картинки](https://tinypng.com/), чтобы ваш сайт загружался быстрее.
-
-Удачи!
+https://alenakozhevnikova.github.io/mesto/
