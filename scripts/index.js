@@ -1,7 +1,6 @@
 const editButton = document.querySelector('.profile__edit-button')
 const popup = document.querySelector('.popup')
 const closeButton = document.querySelector('.popup__close')
-const saveButton = document.querySelector('.popup__save-button')
 let formElement = document.querySelector('.popup__form')
 const profileName = document.querySelector('.profile__name')
 const profileDescription = document.querySelector('.profile__description')
@@ -32,11 +31,5 @@ function formSubmitHandler (evt) {
     profileDescription.textContent = descriptionFieldElement.value;
     closePopup(popup)
 }
-saveButton.addEventListener('click', function() {
-  closePopup(popup)
-  formElement.addEventListener('submit', formSubmitHandler);
-  profileName.textContent = nameFieldElement.value;
-  profileDescription.textContent = descriptionFieldElement.value;
-})
 
 formElement.addEventListener('submit', formSubmitHandler);

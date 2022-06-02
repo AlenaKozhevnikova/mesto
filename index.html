@@ -18,56 +18,66 @@
         <img class="profile__avatar" src="./images/kusto.jpg" alt="Кусто">
         <div class="profile__info">
           <h1 class="profile__name">Жак-Ив Кусто</h1>
-          <button class="profile__edit-button">
-            <img class="profile__edit-button-icon" src="./images/edit_button_icon.svg" alt="Кнопка Редактировать">
+          <button type="submit" class="profile__edit-button">
           </button>
-          <h2 class="profile__description">Исследователь океана</h2>
+          <p class="profile__description">Исследователь океана</p>
         </div>
-        <button class="profile__add-button">
-          <img class="profile__add-button-icon" src="./images/Add_button.svg" alt="Кнопка добавить">
+        <button type="submit" class="profile__add-button">
         </button>
       </section>
       <section class="elements-grid">
         <div class="element">
-            <img class="element__photo" src="./images/kirill-pershin-1088404-unsplash.jpg" alt="Фото достопримечательности">
-            <div class="element__description">
-              <p class="element__text">Карачевск</p>
-            <img class="element__heart" src="./images/heart_transparent.svg" alt="Кнопка лайк">
-            </div>
-        </div>
-        <div class="element">
-          <img class="element__photo" src="./images/kirill-pershin-1088404-unsplash.jpg" alt="Фото достопримечательности">
+          <img class="element__photo" src="./images/kirill-pershin-1088404-unsplash.jpg"
+            alt="Фото достопримечательности">
           <div class="element__description">
-            <p class="element__text">Гора Эльбрус</p>
-          <img class="element__heart" src="./images/heart_transparent.svg" alt="Кнопка лайк">
+            <h2 class="element__text">Карачевск</h2>
+            <button type="submit" class="element__like-button">
+            </button>
           </div>
         </div>
         <div class="element">
-          <img class="element__photo" src="./images/kirill-pershin-1088404-unsplash.jpg" alt="Фото достопримечательности">
+          <img class="element__photo" src="./images/kirill-pershin-1088404-unsplash.jpg"
+            alt="Фото достопримечательности">
           <div class="element__description">
-            <p class="element__text">Домбай</p>
-          <img class="element__heart" src="./images/heart_transparent.svg" alt="Кнопка лайк">
+            <h2 class="element__text">Гора Эльбрус</h2>
+            <button type="submit" class="element__like-button">
+            </button>
           </div>
         </div>
         <div class="element">
-          <img class="element__photo" src="./images/kirill-pershin-1088404-unsplash.jpg" alt="Фото достопримечательности">
+          <img class="element__photo" src="./images/kirill-pershin-1088404-unsplash.jpg"
+            alt="Фото достопримечательности">
           <div class="element__description">
-            <p class="element__text">Гора Эльбрус</p>
-          <img class="element__heart" src="./images/heart_transparent.svg" alt="Кнопка лайк">
+            <h2 class="element__text">Домбай</h2>
+            <button type="submit" class="element__like-button">
+            </button>
           </div>
         </div>
         <div class="element">
-          <img class="element__photo" src="./images/kirill-pershin-1088404-unsplash.jpg" alt="Фото достопримечательности">
+          <img class="element__photo" src="./images/kirill-pershin-1088404-unsplash.jpg"
+            alt="Фото достопримечательности">
           <div class="element__description">
-            <p class="element__text">Домбай</p>
-          <img class="element__heart" src="./images/heart_transparent.svg" alt="Кнопка лайк">
+            <h2 class="element__text">Гора Эльбрус</h2>
+            <button type="submit" class="element__like-button">
+            </button>
           </div>
         </div>
         <div class="element">
-          <img class="element__photo" src="./images/kirill-pershin-1088404-unsplash.jpg" alt="Фото достопримечательности">
+          <img class="element__photo" src="./images/kirill-pershin-1088404-unsplash.jpg"
+            alt="Фото достопримечательности">
           <div class="element__description">
-            <p class="element__text">Карачево-Черкесия</p>
-          <img class="element__heart element__heart-active" src="./images/heart_transparent.svg" alt="Кнопка лайк">
+            <h2 class="element__text">Домбай</h2>
+            <button type="submit" class="element__like-button">
+            </button>
+          </div>
+        </div>
+        <div class="element">
+          <img class="element__photo" src="./images/kirill-pershin-1088404-unsplash.jpg"
+            alt="Фото достопримечательности">
+          <div class="element__description">
+            <h2 class="element__text">Карачево-Черкесия</h2>
+            <button type="submit" class="element__like-button">
+            </button>
           </div>
         </div>
       </section>
@@ -77,17 +87,17 @@
     </footer>
     <div class="popup">
       <div class="popup__container">
-          <button class="popup__close"></button>
-          <h3 class="popup__title">Редактировать профиль</h3>
-          <form action="submit" class="popup__form">
-            <input type="text" class="popup__input popup__input_name">
-            <input type="text" class="popup__input popup__input_description">
-            <button type="submit" class="popup__save-button">Сохранить</button>
-          </form>
+        <button type="reset" class="popup__close"></button>
+        <h3 class="popup__title">Редактировать профиль</h3>
+        <form name="editForm" action="submit" class="popup__form">
+          <input name="userName" type="text" class="popup__input popup__input_name">
+          <input name="userDescription" type="text" class="popup__input popup__input_description">
+          <button type="submit" class="popup__save-button">Сохранить</button>
+        </form>
       </div>
     </div>
   </div>
-    <script src="./scripts/index.js"></script>
+  <script src="./scripts/index.js"></script>
 
 </body>
 

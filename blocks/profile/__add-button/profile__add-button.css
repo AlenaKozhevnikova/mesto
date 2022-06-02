@@ -6,6 +6,10 @@
   border: 2px solid #FFFFFF;
   background-color: #000000;
   margin-left: auto;
+  background-image: url("../../../images/Add_button.svg");
+  background-size: 22px 22px;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 @media (max-width: 768px) {

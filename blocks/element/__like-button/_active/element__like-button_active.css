@@ -1,0 +1,10 @@
+.element__like-button_active {
+  background-image: url("../../../../images/heart_black.svg");
+  background-size: 22px 19px;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+  width: 22px;
+  background-color: white;
+  border: none;
+}

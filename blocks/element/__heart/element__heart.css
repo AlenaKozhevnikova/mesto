@@ -1,8 +1,0 @@
-.element__heart {
-  padding-right: 20px;
-  cursor: pointer;
-}
-
-.element__heart:hover {
-  opacity: 0.5;
-}

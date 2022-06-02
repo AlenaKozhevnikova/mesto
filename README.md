@@ -16,6 +16,6 @@ During coding this project has been used techniques, such as:
 
 ## Project development plans.
 
-- add more Jc features.
+- add more JS features.
 
 https://alenakozhevnikova.github.io/mesto/
