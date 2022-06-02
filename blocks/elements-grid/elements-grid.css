@@ -1,8 +1,8 @@
 .elements-grid {
-  max-width: 880px;
+  width: 100%;
   display: grid;
-  grid-template-columns: repeat(3, 282px);
-  grid-template-rows: repeat(auto, 361px);
+  grid-template-columns: repeat(auto-fit, minmax(282px, 1fr));
+  justify-content: center;
   row-gap: 20px;
   column-gap: 17px;
   padding-top: 47.25px;
@@ -10,18 +10,10 @@
   padding-bottom: 67px;
 }
 
-@media (max-width: 900px) {
-  .elements-grid {
-    grid-template-columns: repeat(2, 282px);
-    grid-template-rows: repeat(2, 361px);
-  }
-}
-
 @media (max-width: 600px) {
   .elements-grid {
-    grid-template-columns: repeat(1, 282px);
-    grid-template-rows: repeat(2, 361px);
-    padding-top: 36px;
-    padding-bottom: 48px;
+    padding-left: 16px;
+    padding-right: 16px;
+    width: 282px;
   }
 }

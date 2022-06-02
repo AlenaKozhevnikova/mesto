@@ -2,7 +2,6 @@
   display: flex;
   flex-wrap: wrap;
   max-width: 336px;
-  height: 73px;
   align-content: center;
   padding-top: 25.75px;
   padding-left: 26.25px;
@@ -12,7 +11,10 @@
 @media (max-width: 768px) {
   .profile__info {
     padding-top: 22.25px;
-    margin: auto;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0;
+    margin-bottom: 0;
     padding-left: 0;
     padding-bottom: 36px;
     justify-content: center;

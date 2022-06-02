@@ -5,7 +5,10 @@
   flex-direction: column;
   color: #FFFFFF;
   max-width: 880px;
-  margin: auto;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 @media (max-width: 900px) {
