@@ -4,6 +4,8 @@ const closeButton = document.querySelector('.popup__close')
 const formElement = document.querySelector('.popup__form')
 const profileName = document.querySelector('.profile__name')
 const profileDescription = document.querySelector('.profile__description')
+const nameFieldElement = document.querySelector('.popup__input_text_name')
+const descriptionFieldElement = document.querySelector('.popup__input_text_description')
 
 function openPopup() {
   popup.classList.add('popup_open')
@@ -23,13 +25,12 @@ closeButton.addEventListener('click', function() {
   closePopup()
 })
 
-const nameFieldElement = document.querySelector('.popup__input_name')
-const descriptionFieldElement = document.querySelector('.popup__input_description')
-
 function formSubmitHandler (evt) {
   evt.preventDefault();
     profileName.textContent = nameFieldElement.value;
     profileDescription.textContent = descriptionFieldElement.value;
     closePopup()
 }
+
+formElement.addEventListener('submit', formSubmitHandler);
 
